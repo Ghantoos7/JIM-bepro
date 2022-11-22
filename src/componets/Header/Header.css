@@ -21,3 +21,10 @@
     cursor: pointer;
 }
 
+.right-h>btn{
+    position : absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+
