@@ -17,7 +17,7 @@
 }
 
 .programs-category{
-    display:     flex;
+    display: flex;
     gap: 1rem;
 }
 
@@ -30,5 +30,39 @@
     color: white;
     justify-content: space-between;
 
+}
+
+.category>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+
+}
+
+.category>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.category>:nth-child(2){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.join-now>img{
+    width: 1rem;
+}
+
+.category:hover{
+    background: rgb(26,28,27);
+    background: linear-gradient(231deg, rgba(26,28,27,1) 0%, rgba(226,21,84,1) 50%, rgba(255,54,115,1) 80%);
+    cursor: pointer;
 }
 
